@@ -1,0 +1,30 @@
+{
+    "name": "bsadjetey/todoey",
+    "description": "Allow users to create a to-do list of tasks",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bsadjetey\\Todoey\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bernard Adjetey",
+            "email": "bsadjetey@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^6.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bsadjetey\\Todoey\\TodoeyServiceProvider"
+            ]
+        },
+        "branch-alias": {
+            "dev-main": "1.0.x-dev"
+        }
+    }
+}
